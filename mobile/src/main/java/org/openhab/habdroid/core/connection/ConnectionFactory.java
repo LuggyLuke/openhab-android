@@ -55,7 +55,7 @@ public final class ConnectionFactory extends BroadcastReceiver implements
     private static final String TAG = ConnectionFactory.class.getSimpleName();
     private static final List<Integer> LOCAL_CONNECTION_TYPES = Arrays.asList(
             ConnectivityManager.TYPE_ETHERNET, ConnectivityManager.TYPE_WIFI,
-            ConnectivityManager.TYPE_WIMAX, ConnectivityManager.TYPE_VPN);
+            ConnectivityManager.TYPE_WIMAX, ConnectivityManager.TYPE_VPN, COMPANION_PROXY);
     private static final List<String> CLIENT_CERT_UPDATE_TRIGGERING_KEYS = Arrays.asList(
             Constants.PREFERENCE_DEMOMODE, Constants.PREFERENCE_SSLCLIENTCERT
     );
